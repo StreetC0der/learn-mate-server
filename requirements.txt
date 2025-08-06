@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+tavily-python
+google-generativeai
+langchain
+pydantic
+python-dotenv
+requests
+tavily-python
+pydantic-settings
+langchain-groq
