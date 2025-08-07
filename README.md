@@ -1,5 +1,3 @@
-Certainly! Here's a detailed README file template tailored for your backend agentic AI project based on the files and structure you've shared. This README covers setup, architecture, usage, and troubleshooting for your FastAPI backend integrating Gemini Pro LLM, Groq LLM, and Tavily search.
-
 # Agentic AI Backend
 
 This is the backend part of the Agentic AI project — a FastAPI service that provides two primary endpoints to help learners:
@@ -210,18 +208,3 @@ Store API keys securely in `.env` file to avoid exposing them in code.
 - **LangChain Deprecation Warnings:**  
   Update to current recommended LangChain usage before production if needed.
 
-## Contributing
-
-Contributions are welcome! Please:
-
-- Open issues for bugs or feature requests.
-- Fork the repo and submit pull requests with descriptive titles.
-- Follow [PEP8](https://pep8.org/) styling guidelines.
-
-## License
-
-Specify your license here (e.g., MIT License).
-
-If you need help setting up any part of this backend or want examples for frontend integration, just ask!
-
-**Happy learning! 🚀**
