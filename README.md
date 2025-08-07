@@ -1,3 +1,11 @@
+# LearnMate
+
+*LearnMate* is an Agentic AI-powered learning assistant that creates personalized learning paths and dynamically quizzes users to reinforce their knowledge. It aligns with *UN SDG 4: Quality Education*, helping learners gain structured and meaningful insights on any topic
+
+**[Live Website](https://learn-mate-pi.vercel.app/)**  
+**[Frontend Repository](https://github.com/DhruvChadha22/learn-mate-client)** 
+
+
 # Agentic AI Backend
 
 This is the backend part of the Agentic AI project — a FastAPI service that provides two primary endpoints to help learners:
@@ -207,4 +215,5 @@ Store API keys securely in `.env` file to avoid exposing them in code.
 
 - **LangChain Deprecation Warnings:**  
   Update to current recommended LangChain usage before production if needed.
+
 
