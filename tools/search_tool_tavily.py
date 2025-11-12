@@ -11,7 +11,7 @@ class TavilySearchTool(BaseTool):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self._client = TavilyClient(api_key=settings.TAVILY_API_KEY)
+        self._client = TavilyClient(api_key=settings.tavily_api_key)
 
     def _run(self, query: str) -> str:
         query = query.strip()

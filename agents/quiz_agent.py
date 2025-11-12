@@ -33,7 +33,7 @@ def create_quiz(subtopics: list) -> dict:
 
     # Instantiate Groq LLM with your API key
     llm = ChatGroq(
-        model="llama3-70b-8192",  # Use 8b model for faster, cheaper quiz generation; switch to bigger model if needed
+        model="llama-3.3-70b-versatile",  # Use 8b model for faster, cheaper quiz generation; switch to bigger model if needed
         api_key=GROQ_API_KEY,
         temperature=0
     )
