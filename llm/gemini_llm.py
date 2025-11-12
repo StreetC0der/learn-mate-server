@@ -1,4 +1,4 @@
-from langchain.llms.base import LLM
+from langchain_core.language_models import BaseLanguageModel as LLM
 import google.generativeai as genai
 from config import settings
 
