@@ -5,7 +5,7 @@ uvicorn==0.29.0
 # LangChain ecosystem (pre-refactor)
 langchain==0.0.350
 langchain-core==0.1.5
-langchain-groq==0.0.2
+langchain-groq==0.1.0
 
 # Google Gemini API
 google-generativeai==0.3.2
